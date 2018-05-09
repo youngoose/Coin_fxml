@@ -114,14 +114,11 @@ public class Coin
       Collections.reverse(coinFace);
       
       for (Integer key : coinFace) {
-         // number of coins or specific coin face
          int counterCoins = 0;
          while (amount >= key) {
             amount -= key;
             counterCoins++;
             coins.replace(key, counterCoins);
-            // put - it will add new value or replace old value
-            // replace - it will replace old value
          }
       }
       qTimes = coins.get(QUARTER);
