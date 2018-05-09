@@ -1,0 +1,6 @@
+.anchor {
+    -fx-background-image: url("../images/mint.JPG");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 2000 600;
+    -fx-background-position: center center;
+}
